@@ -7,6 +7,6 @@ if str(platform.system()) == "Windows":
   os = "Windows"
 elif str(platform.system()) == "Darwin":
   os = "MacOS"
-else
+else:
   os = "Linux"
 print(f"Detected OS: {os} ({platform.version()})")

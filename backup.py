@@ -9,4 +9,4 @@ elif str(platform.system()) == "Darwin":
   os = "MacOS"
 else:
   os = "Linux"
-print(f"Detected OS: {os} ({platform.version()})")
+print(f"Detected OS: {os}")
